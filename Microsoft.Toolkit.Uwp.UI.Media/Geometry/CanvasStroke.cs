@@ -8,7 +8,7 @@ using Microsoft.Graphics.Canvas.Brushes;
 using Microsoft.Graphics.Canvas.Geometry;
 using Windows.UI;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry
+namespace Microsoft.Toolkit.Uwp.UI.Media
 {
     /// <summary>
     /// Class to represent the Stroke which can be used to render an outline on a <see cref="CanvasGeometry"/>
@@ -38,6 +38,16 @@ namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry
             get => GetTransform();
 
             set => SetTransform(value);
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CanvasStroke"/> class.
+        /// </summary>
+        public CanvasStroke()
+        {
+            Brush = null;
+            Width = 0;
+            Style = new CanvasStrokeStyle();
         }
 
         /// <summary>

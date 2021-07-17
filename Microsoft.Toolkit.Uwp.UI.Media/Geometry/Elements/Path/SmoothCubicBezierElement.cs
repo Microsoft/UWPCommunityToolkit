@@ -5,9 +5,8 @@
 using System.Numerics;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas.Geometry;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Core;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Path
+namespace Microsoft.Toolkit.Uwp.UI.Media
 {
     /// <summary>
     /// Class representing the Smooth Cubic Bezier Element in a Path Geometry
